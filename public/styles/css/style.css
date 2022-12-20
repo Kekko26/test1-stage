@@ -1,0 +1,1271 @@
+html {
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body main section {
+  /*
+
+
+
+  */
+  /*
+
+
+
+  */
+  /*
+
+
+  */
+  /*
+
+
+
+
+  */
+  /*
+
+
+
+  */
+}
+body main section.first-section aside.left-side {
+  padding: 0px;
+}
+body main section.first-section aside.left-side div.wrapper {
+  background: #49FCD4;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.first-section aside.left-side div.wrapper {
+    height: auto;
+    align-items: center;
+  }
+}
+body main section.first-section aside.left-side div.wrapper::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 60%;
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  border-top: 2px solid #43D9B8;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.first-section aside.left-side div.wrapper::after {
+    display: none;
+  }
+}
+body main section.first-section aside.left-side div.wrapper::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #43D9B8;
+  position: absolute;
+  bottom: 59.5%;
+  right: 74px;
+}
+@media screen and (max-width: 768px) {
+  body main section.first-section aside.left-side div.wrapper::before {
+    display: none;
+  }
+}
+body main section.first-section aside.left-side div.wrapper div.text-box {
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: end;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  body main section.first-section aside.left-side div.wrapper div.text-box {
+    text-align: start;
+    justify-content: center;
+    width: 80%;
+  }
+}
+body main section.first-section aside.left-side div.wrapper div.text-box h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  width: 75%;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.first-section aside.left-side div.wrapper div.text-box h1 {
+    width: 100%;
+  }
+}
+body main section.first-section aside.left-side div.wrapper div.text-box p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  width: 75%;
+  font-size: 0.875rem;
+  letter-spacing: 2.5px;
+}
+@media screen and (max-width: 768px) {
+  body main section.first-section aside.left-side div.wrapper div.text-box p {
+    width: 100%;
+  }
+}
+body main section.first-section aside.right-side {
+  padding: 0px;
+}
+body main section.first-section aside.right-side figure {
+  height: 100%;
+}
+body main section.first-section aside.right-side figure img {
+  width: 100%;
+  height: 100%;
+}
+body main section.second-section {
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section {
+    height: auto;
+  }
+}
+body main section.second-section aside {
+  padding-top: 6.125rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside {
+    padding: 0;
+  }
+}
+body main section.second-section aside:first-child {
+  height: auto;
+  background: #49FCD4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:first-child {
+    height: auto;
+  }
+}
+body main section.second-section aside:first-child::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:first-child::after {
+    display: none;
+  }
+}
+body main section.second-section aside:first-child div.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:first-child div.wrapper {
+    height: 8rem;
+  }
+}
+body main section.second-section aside:first-child div.wrapper::after {
+  content: "";
+  width: 60px;
+  height: 20px;
+  border-top: 2px solid #43D9B8;
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:first-child div.wrapper::after {
+    display: none;
+  }
+}
+body main section.second-section aside:first-child div.wrapper div.text-box {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: end;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:first-child div.wrapper div.text-box {
+    justify-content: center;
+    text-align: start;
+  }
+}
+body main section.second-section aside:first-child div.wrapper div.text-box::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #43D9B8;
+  position: absolute;
+  top: 1rem;
+  right: 30px;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:first-child div.wrapper div.text-box::before {
+    display: none;
+  }
+}
+body main section.second-section aside:first-child div.wrapper div.text-box h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 4px;
+  line-height: 40px;
+  width: 75%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:first-child div.wrapper div.text-box h2 {
+    font-size: 1.25rem;
+  }
+}
+body main section.second-section aside:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:last-child {
+    padding: 35px;
+  }
+}
+body main section.second-section aside:last-child div.wrapper {
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  body main section.second-section aside:last-child div.wrapper {
+    gap: 25px;
+  }
+}
+body main section.second-section aside:last-child div.wrapper p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2.188rem;
+}
+body main section.second-section aside:last-child div.wrapper p strong {
+  font-weight: bold;
+}
+body main section.second-section aside:last-child div.wrapper figure {
+  width: 100%;
+}
+body main section.second-section aside:last-child div.wrapper figure img {
+  max-width: 100%;
+}
+body main section.third-section {
+  height: auto;
+}
+body main section.third-section aside.left-side {
+  background: #49FCD4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: end;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side {
+    height: 8rem;
+  }
+}
+body main section.third-section aside.left-side::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side::after {
+    display: none;
+  }
+}
+body main section.third-section aside.left-side div.wrapper {
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side div.wrapper {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+}
+body main section.third-section aside.left-side div.wrapper::after {
+  content: "";
+  width: 60px;
+  height: 20px;
+  border-top: 2px solid #43D9B8;
+  display: block;
+  position: absolute;
+  right: 0.813rem;
+  top: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side div.wrapper::after {
+    display: none;
+  }
+}
+body main section.third-section aside.left-side div.wrapper div.wrapper-line {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side div.wrapper div.wrapper-line {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+body main section.third-section aside.left-side div.wrapper div.wrapper-line::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #43D9B8;
+  position: absolute;
+  right: 4.2rem;
+  top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side div.wrapper div.wrapper-line::after {
+    display: none;
+  }
+}
+body main section.third-section aside.left-side div.wrapper div.wrapper-line div.text-box {
+  width: 65%;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side div.wrapper div.wrapper-line div.text-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+body main section.third-section aside.left-side div.wrapper div.wrapper-line div.text-box h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 4px;
+  line-height: 40px;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.left-side div.wrapper div.wrapper-line div.text-box h2 {
+    width: 85%;
+  }
+}
+body main section.third-section aside.right-side {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.third-section aside.right-side {
+    padding: 40px 0px;
+  }
+}
+body main section.third-section aside.right-side div.wrapper {
+  width: 80%;
+  max-width: 600px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+body main section.third-section aside.right-side div.wrapper p strong {
+  font-weight: bold;
+}
+body main section.third-section aside.right-side div.wrapper article {
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 576px) {
+  body main section.third-section aside.right-side div.wrapper article {
+    margin-bottom: 20px;
+  }
+}
+body main section.third-section aside.right-side div.wrapper article div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main section.third-section aside.right-side div.wrapper article div:not(:nth-of-type(5), :nth-of-type(6)) {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 576px) {
+  body main section.third-section aside.right-side div.wrapper article div {
+    margin-bottom: 30px;
+  }
+}
+body main section.third-section aside.right-side div.wrapper article div figure {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+body main section.third-section aside.right-side div.wrapper article div figure img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body main section.third-section aside.right-side div.wrapper article div p {
+  flex-basis: 70%;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 2.188rem;
+}
+body main section.fourth-section {
+  height: auto;
+}
+body main section.fourth-section div.titles {
+  height: 10rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.titles {
+    height: 15rem;
+  }
+}
+body main section.fourth-section div.titles div.titles-row {
+  height: 100%;
+}
+body main section.fourth-section div.titles div.titles-row div.wrapper {
+  height: 100%;
+  background: #49FCD4;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.titles div.titles-row div.wrapper {
+    height: 50%;
+  }
+}
+body main section.fourth-section div.titles div.titles-row div.wrapper::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.titles div.titles-row div.wrapper::after {
+    display: none;
+  }
+}
+body main section.fourth-section div.titles div.titles-row div.wrapper::before {
+  content: "";
+  width: 50px;
+  height: 20px;
+  border-top: 2px solid #43D9B8;
+  display: block;
+  position: absolute;
+  right: 24px;
+  top: 35%;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.titles div.titles-row div.wrapper::before {
+    display: none;
+  }
+}
+body main section.fourth-section div.titles div.titles-row div.wrapper div.wrapper-line {
+  height: 100%;
+}
+body main section.fourth-section div.titles div.titles-row div.wrapper div.wrapper-line::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #43D9B8;
+  right: 70px;
+  top: 32%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.titles div.titles-row div.wrapper div.wrapper-line::after {
+    display: none;
+  }
+}
+body main section.fourth-section div.titles div.titles-row div.wrapper div.wrapper-line div.text-box {
+  width: 65%;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.titles div.titles-row div.wrapper div.wrapper-line div.text-box {
+    width: 80%;
+  }
+}
+body main section.fourth-section div.titles div.titles-row div.wrapper div.wrapper-line div.text-box h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 4px;
+  line-height: 40px;
+  width: 100%;
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.titles div.titles-row div.wrapper div.wrapper-line div.text-box h2 {
+    text-align: left;
+  }
+}
+body main section.fourth-section div.titles div.titles-row div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main section.fourth-section div.titles div.titles-row div:last-child p {
+  width: 80%;
+  max-width: 600px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  line-height: 35px;
+}
+body main section.fourth-section div.titles div.titles-row div:last-child p strong {
+  font-weight: bold;
+}
+body main section.fourth-section div.first-couple {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+body main section.fourth-section div.first-couple div.first-p {
+  padding-top: 20px;
+  height: auto;
+  background: #49FCD4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: right;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.first-couple div.first-p {
+    background-color: white;
+    text-align: left;
+  }
+}
+body main section.fourth-section div.first-couple div.first-p::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.first-couple div.first-p::after {
+    display: none;
+  }
+}
+body main section.fourth-section div.first-couple div.first-p div.text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.first-couple div.first-p div.text {
+    width: 100%;
+    align-items: center;
+  }
+}
+body main section.fourth-section div.first-couple div.first-p div.text h3,
+body main section.fourth-section div.first-couple div.first-p div.text p {
+  max-width: 18.75rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.first-couple div.first-p div.text h3,
+body main section.fourth-section div.first-couple div.first-p div.text p {
+    max-width: 80%;
+  }
+}
+body main section.fourth-section div.first-couple div.first-p div.text h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.first-couple div.first-p div.text h3 {
+    width: 100%;
+  }
+}
+body main section.fourth-section div.first-couple div.first-p div.text p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+body main section.fourth-section div.first-couple div.first-images {
+  padding-top: 20px;
+}
+body main section.fourth-section div.first-couple div.first-images section figure:first-child,
+body main section.fourth-section div.first-couple div.first-images section figure:last-child {
+  max-width: 80%;
+}
+body main section.fourth-section div.first-couple div.first-images section figure:nth-child(2),
+body main section.fourth-section div.first-couple div.first-images section figure:nth-child(3) {
+  max-width: 40%;
+}
+body main section.fourth-section div.first-couple div.first-images section img {
+  width: 100%;
+}
+body main section.fourth-section div.second-couple div.second-p {
+  padding-top: 20px;
+  height: auto;
+  background: #49FCD4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: right;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.second-couple div.second-p {
+    text-align: left;
+    background-color: white;
+  }
+}
+body main section.fourth-section div.second-couple div.second-p::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.second-couple div.second-p::after {
+    display: none;
+  }
+}
+body main section.fourth-section div.second-couple div.second-p div.text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.second-couple div.second-p div.text {
+    width: 80%;
+    align-items: flex-start;
+  }
+}
+body main section.fourth-section div.second-couple div.second-p div.text h3,
+body main section.fourth-section div.second-couple div.second-p div.text p {
+  max-width: 18.75rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.second-couple div.second-p div.text h3,
+body main section.fourth-section div.second-couple div.second-p div.text p {
+    width: 100% !important;
+    max-width: unset;
+  }
+}
+body main section.fourth-section div.second-couple div.second-p div.text h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+body main section.fourth-section div.second-couple div.second-p div.text p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+body main section.fourth-section div.second-couple div.second-images {
+  padding-top: 20px;
+}
+body main section.fourth-section div.second-couple div.second-images section figure:first-child {
+  max-width: 80%;
+}
+body main section.fourth-section div.second-couple div.second-images section figure:nth-child(2),
+body main section.fourth-section div.second-couple div.second-images section figure:nth-child(3) {
+  max-width: 40%;
+}
+body main section.fourth-section div.second-couple div.second-images section img {
+  width: 100%;
+}
+body main section.fourth-section div.third-couple div.third-p {
+  padding-top: 20px;
+  height: auto;
+  background: #49FCD4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: right;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.third-couple div.third-p {
+    text-align: left;
+    background-color: white;
+  }
+}
+body main section.fourth-section div.third-couple div.third-p::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  top: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.third-couple div.third-p::after {
+    display: none;
+  }
+}
+body main section.fourth-section div.third-couple div.third-p div.text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.third-couple div.third-p div.text {
+    width: 80%;
+  }
+}
+body main section.fourth-section div.third-couple div.third-p div.text h3,
+body main section.fourth-section div.third-couple div.third-p div.text p {
+  max-width: 18.75rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fourth-section div.third-couple div.third-p div.text h3,
+body main section.fourth-section div.third-couple div.third-p div.text p {
+    max-width: unset;
+    width: 100%;
+  }
+}
+body main section.fourth-section div.third-couple div.third-p div.text h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+body main section.fourth-section div.third-couple div.third-p div.text p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+body main section.fourth-section div.third-couple div.third-images {
+  padding-top: 20px;
+}
+body main section.fourth-section div.third-couple div.third-images section figure:last-child {
+  max-width: 80%;
+}
+body main section.fourth-section div.third-couple div.third-images section figure:nth-child(1),
+body main section.fourth-section div.third-couple div.third-images section figure:nth-child(2) {
+  max-width: 40%;
+}
+body main section.fourth-section div.third-couple div.third-images section img {
+  width: 100%;
+}
+body main section.fifth-section {
+  height: 25rem;
+}
+body main section.fifth-section aside {
+  padding-top: 3rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside {
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+}
+body main section.fifth-section aside.left-side {
+  background: #49FCD4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: end;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side {
+    height: 8rem;
+  }
+}
+body main section.fifth-section aside.left-side::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side::after {
+    display: none;
+  }
+}
+body main section.fifth-section aside.left-side div.wrapper {
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side div.wrapper {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+}
+body main section.fifth-section aside.left-side div.wrapper::after {
+  content: "";
+  width: 60px;
+  height: 20px;
+  border-top: 2px solid #43D9B8;
+  display: block;
+  position: absolute;
+  right: 0.813rem;
+  top: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side div.wrapper::after {
+    display: none;
+  }
+}
+body main section.fifth-section aside.left-side div.wrapper div.wrapper-line {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side div.wrapper div.wrapper-line {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+body main section.fifth-section aside.left-side div.wrapper div.wrapper-line::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #43D9B8;
+  position: absolute;
+  right: 4.2rem;
+  top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side div.wrapper div.wrapper-line::after {
+    display: none;
+  }
+}
+body main section.fifth-section aside.left-side div.wrapper div.wrapper-line div.text-box {
+  width: 65%;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side div.wrapper div.wrapper-line div.text-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+body main section.fifth-section aside.left-side div.wrapper div.wrapper-line div.text-box h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 4px;
+  line-height: 40px;
+}
+@media screen and (max-width: 768px) {
+  body main section.fifth-section aside.left-side div.wrapper div.wrapper-line div.text-box h2 {
+    width: 85%;
+  }
+}
+body main section.fifth-section aside.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+body main section.fifth-section aside.right-side div.text-buttons {
+  width: 80%;
+}
+body main section.fifth-section aside.right-side div.text-buttons div.text {
+  padding-bottom: 30px;
+  width: 100%;
+}
+body main section.fifth-section aside.right-side div.text-buttons div.text p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 2.188rem;
+}
+body main section.fifth-section aside.right-side div.text-buttons div.text p strong {
+  font-weight: bold;
+}
+body main section.fifth-section aside.right-side div.text-buttons div.buttons div.button {
+  width: 40%;
+  height: 3.5rem;
+}
+@media screen and (max-width: 376px) {
+  body main section.fifth-section aside.right-side div.text-buttons div.buttons div.button {
+    width: 100%;
+  }
+}
+body main section.fifth-section aside.right-side div.text-buttons div.buttons div.button button {
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+}
+@media screen and (max-width: 376px) {
+  body main section.fifth-section aside.right-side div.text-buttons div.buttons div.button:first-child {
+    margin-bottom: 20px;
+  }
+}
+body main section.fifth-section aside.right-side div.text-buttons div.buttons div.button:first-child button {
+  background: #49FCD4;
+  border: none;
+  border-radius: 6px;
+}
+body main section.fifth-section aside.right-side div.text-buttons div.buttons div.button:last-child button:last-child {
+  background: white;
+  border: 1px solid #f4f4f4;
+  border-radius: 6px;
+}
+body main section.sixth-section {
+  min-height: 5rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside {
+    margin-bottom: 20px;
+  }
+}
+body main section.sixth-section aside.left-side {
+  background: #49FCD4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: end;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side {
+    height: 8rem;
+  }
+}
+body main section.sixth-section aside.left-side::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side::after {
+    display: none;
+  }
+}
+body main section.sixth-section aside.left-side div.wrapper {
+  width: 100%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side div.wrapper {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+}
+body main section.sixth-section aside.left-side div.wrapper::after {
+  content: "";
+  width: 60px;
+  height: 20px;
+  border-top: 2px solid #43D9B8;
+  display: block;
+  position: absolute;
+  right: 0.813rem;
+  top: 1.25rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side div.wrapper::after {
+    display: none;
+  }
+}
+body main section.sixth-section aside.left-side div.wrapper div.wrapper-line {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side div.wrapper div.wrapper-line {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+body main section.sixth-section aside.left-side div.wrapper div.wrapper-line::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #43D9B8;
+  position: absolute;
+  right: 4.2rem;
+  top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side div.wrapper div.wrapper-line::after {
+    display: none;
+  }
+}
+body main section.sixth-section aside.left-side div.wrapper div.wrapper-line div.text-box {
+  width: 65%;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side div.wrapper div.wrapper-line div.text-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+body main section.sixth-section aside.left-side div.wrapper div.wrapper-line div.text-box h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  letter-spacing: 4px;
+  line-height: 40px;
+}
+@media screen and (max-width: 768px) {
+  body main section.sixth-section aside.left-side div.wrapper div.wrapper-line div.text-box h2 {
+    width: 85%;
+  }
+}
+body main section.sixth-section aside.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main section.sixth-section aside.right-side div.text {
+  width: 80%;
+}
+body main section.sixth-section aside.right-side div.text p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  line-height: 2.188rem;
+  font-size: 1.1rem;
+  width: 100%;
+}
+body main section.sixth-section aside.right-side div.text p strong {
+  font-weight: bold;
+}
+body main section.seventh-section {
+  margin-top: auto;
+  height: 30rem;
+}
+body main section.seventh-section aside.left-side {
+  height: 100%;
+  background: #49FCD4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  body main section.seventh-section aside.left-side {
+    background: white;
+    text-align: left;
+    order: 1;
+  }
+}
+body main section.seventh-section aside.left-side div.wrapper {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+body main section.seventh-section aside.left-side div.wrapper div.text-box {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media screen and (max-width: 768px) {
+  body main section.seventh-section aside.left-side div.wrapper div.text-box {
+    width: 80%;
+    align-items: flex-start;
+  }
+}
+body main section.seventh-section aside.left-side div.wrapper div.text-box p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+body main section.seventh-section aside.left-side div.wrapper h3 {
+  width: 65%;
+  text-align: right;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  body main section.seventh-section aside.left-side div.wrapper h3 {
+    width: 80%;
+    text-align: left;
+  }
+}
+body main section.seventh-section aside.left-side div.wrapper::after {
+  content: "";
+  display: block;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+  border-right: 2px solid #43D9B8;
+}
+@media screen and (max-width: 768px) {
+  body main section.seventh-section aside.left-side div.wrapper::after {
+    display: none;
+  }
+}
+body main section.seventh-section aside.left-side div.wrapper::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #43D9B8;
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  body main section.seventh-section aside.left-side div.wrapper::before {
+    display: none;
+  }
+}
+body main section.seventh-section aside.right-side {
+  height: auto;
+}
+body main section.seventh-section aside.right-side div.form {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body main section.seventh-section aside.right-side div.form form {
+  height: 80%;
+  width: 80%;
+}
+body main section.seventh-section aside.right-side div.form form input {
+  height: 3.5rem;
+  border: 2px solid rgba(144, 144, 144, 0.25);
+  border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  body main section.seventh-section aside.right-side div.form form input {
+    margin-bottom: 20px;
+  }
+}
+body main section.seventh-section aside.right-side div.form form input:first-child {
+  margin-right: auto;
+}
+body main section.seventh-section aside.right-side div.form form button {
+  margin-right: auto;
+  margin-top: 20px;
+  height: 50px;
+  background-color: #49FCD4;
+  border-radius: 6px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+body main section.seventh-section aside.right-side div.form > p {
+  color: rgb(244, 244, 244);
+  margin-bottom: 0;
+  align-self: flex-start;
+}
